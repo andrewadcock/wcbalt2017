@@ -33,6 +33,15 @@ button, input[type="button"], input[type="submit"] {
   text-align: center;
 }
 
+.wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers {
+  text-align: center;
+}
+
+.wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers a:link,
+.wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers a:visited {
+  color: #3F277C;
+}
+
 .wcpt-time {
   font-size: .85em;
 }
@@ -44,7 +53,7 @@ button, input[type="button"], input[type="submit"] {
 
 .wcpt-session-speakers a:hover,
 .wcpt-session-speakers a:active {
- color: #d63b14;
+ color: #3F277C;
   -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
   box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
 }
