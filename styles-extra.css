@@ -17,9 +17,16 @@ button, input[type="button"], input[type="submit"] {
 .site-footer .widget-area a, 
 .posts-navigation a, 
 .widget_authors a strong {
+  box-shadow: none;
   color: #d63b14;
 }
 
+.wcpt-session-speakers {
+  box-shadow: none;
+  color: #666;
+  display: table;
+  font-size: 0.85rem;
+}
 
 .wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom {
   background: #ddd;
