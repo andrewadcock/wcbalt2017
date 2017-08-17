@@ -1,11 +1,9 @@
 
 // Header
-.page .panel-content .entry-title, 
-.page-title, 
-body.page:not(.twentyseventeen-front-page) .entry-title {
-  color: #d63b14; 
-  font-size: 30px;
-  font-size: 1.875rem;
+.entry-title {
+  color: #d63b14 !important; 
+  font-size: 30px !important;
+  font-size: 1.875rem !important;
 }
 
 
