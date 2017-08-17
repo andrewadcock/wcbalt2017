@@ -1,18 +1,13 @@
 
-// Header
-.entry-title {
-  color: #d63b14 !important; 
-  font-size: 30px !important;
-  font-size: 1.875rem !important;
+.single-post .entry-title, .page .entry-title {
+  color: #d63b14; 
+  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 
-
-// Buttons
-button, 
-input[type="button"], 
-input[type="submit"] {
-  color: #d63b14;
+button, input[type="button"], input[type="submit"] {
+  background: #d63b14;
 }
 
 
