@@ -11,9 +11,24 @@ button, input[type="button"], input[type="submit"] {
   background: #d63b14;
 }
 
+.entry-content a, 
+.entry-summary a, 
+.widget a, 
+.site-footer .widget-area a, 
+.posts-navigation a, 
+.widget_authors a strong {
+  color: #d63b14;
+}
+
+
 .wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom {
-  background: #aaa;
+  background: #ddd;
   text-align: center;
+}
+
+.wcpt-time {
+  color: #666;
+  font-size: .85em;
 }
 
 @media screen and (min-width: 48em) {
