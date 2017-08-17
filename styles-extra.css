@@ -1,14 +1,14 @@
 .page .panel-content .entry-title, 
 .page-title, 
 body.page:not(.twentyseventeen-front-page) .entry-title {
-  color: #d63b14; 
+  color: #3F277C; 
   font-size: 30px;
   font-size: 1.875rem;
 }
 
 
 button, input[type="button"], input[type="submit"] {
-  background: #d63b14;
+  background: #3F277C;
 }
 
 .entry-content a, 
@@ -18,7 +18,7 @@ button, input[type="button"], input[type="submit"] {
 .posts-navigation a, 
 .widget_authors a strong {
   box-shadow: none;
-  color: #d63b14;
+  color: #3F277C;
 }
 
 .wcpt-session-speakers {
