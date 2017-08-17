@@ -34,7 +34,18 @@ button, input[type="button"], input[type="submit"] {
 }
 
 .wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers {
+  display: block;
+  font-weight: 600;
+  padding-top: .6em;
   text-align: center;
+}
+
+.wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers {
+  text-align: center;
+}
+
+.wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers a {
+  font-weight: 400; 
 }
 
 .wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers a:link,
@@ -49,6 +60,7 @@ button, input[type="button"], input[type="submit"] {
 .wcpt-session-speakers a, 
 .wcp-session-speakers a:visited {
   color: #666;
+  font-style: italic;
 }
 
 .wcpt-session-speakers a:hover,
