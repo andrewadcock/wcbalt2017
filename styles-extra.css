@@ -34,9 +34,28 @@ button, input[type="button"], input[type="submit"] {
 }
 
 .wcpt-time {
-  color: #666;
   font-size: .85em;
 }
+
+.wcpt-time a, 
+.wcp-time a:visited {
+  color: #666;
+}
+
+.wcpt-time a:hover,
+.wcpt-time a:active {
+ color: #d63b14;
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+}
+
+.wcpt-time a:active {
+  color: #000;
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1); 
+}
+
+
 
 @media screen and (min-width: 48em) {
   .page.page-one-column .entry-header, 
