@@ -1,5 +1,6 @@
-
-.single-post .entry-title, .page .entry-title {
+.page .panel-content .entry-title, 
+.page-title, 
+body.page:not(.twentyseventeen-front-page) .entry-title {
   color: #d63b14; 
   font-size: 30px;
   font-size: 1.875rem;
