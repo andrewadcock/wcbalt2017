@@ -1,8 +1,42 @@
-.entry-header {
-  width: 100%;
-  float: none;
+
+// Layout
+.page .panel-content .entry-title, 
+.page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+  color: #d63b14; 
+  font-size: 30px;
+  font-size: 1.875rem;
 }
 
-.entry-content {
-  width: 100%;
+
+
+// Buttons
+button, 
+input[type="button"], 
+input[type="submit"] {
+  color: #d63b14;
+}
+
+
+
+@media screen and (min-width: 48em) {
+  
+  // Layout
+  body:not(.has-sidebar):not(.page-one-column) .page-header, 
+  body.has-sidebar.error404 #primary .page-header, 
+  body.page-two-column:not(.archive) #primary .entry-header, 
+  body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
+      width: 100%;
+      float: none;
+  }
+  
+  .blog:not(.has-sidebar) #primary article, 
+  .archive:not(.page-one-column):not(.has-sidebar) #primary article, 
+  .search:not(.has-sidebar) #primary article, 
+  .error404:not(.has-sidebar) #primary .page-content, 
+  .error404.has-sidebar #primary .page-content, 
+  body.page-two-column:not(.archive) #primary .entry-content, 
+  body.page-two-column #comments {
+      width: 100%;
+      float: none;
+  }
 }
