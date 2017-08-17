@@ -57,7 +57,9 @@ button, input[type="button"], input[type="submit"] {
 }
 
 .wcpt-session-title { 
+  display: block;
   font-weight: 600;
+  padding-bottom: .6rem;
 }
 
 .wcpt-session-speakers a, 
