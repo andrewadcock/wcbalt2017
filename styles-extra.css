@@ -82,6 +82,7 @@ button, input[type="button"], input[type="submit"] {
 }
 
 td {
+  padding: .8rem .4rem;
   vertical-align: top; 
 }
 
