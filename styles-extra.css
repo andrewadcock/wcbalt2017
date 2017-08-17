@@ -35,7 +35,6 @@ button, input[type="button"], input[type="submit"] {
 
 .wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom .wcpt-session-speakers {
   display: block;
-  font-weight: 600;
   padding-top: .6em;
   text-align: center;
 }
@@ -55,6 +54,10 @@ button, input[type="button"], input[type="submit"] {
 
 .wcpt-time {
   font-size: .85em;
+}
+
+.wcpt-session-title { 
+  font-weight: 600;
 }
 
 .wcpt-session-speakers a, 
