@@ -90,6 +90,10 @@ td.wcb-track-atrium.wcb-track-auditorium.wcb-track-classroom {
  padding: 1rem .4rem .4rem; 
 }
 
+td.wcb-speaker-aaron-campbell .wcpt-session-title {
+ padding-bottom: 0; 
+}
+
 
 @media screen and (min-width: 48em) {
   .page.page-one-column .entry-header, 
