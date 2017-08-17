@@ -17,17 +17,3 @@ input[type="submit"] {
   color: #d63b14;
 }
 
-
-
-@media screen and (min-width: 48em) {
-  
-  // Layout
-  body:not(.has-sidebar):not(.page-one-column) .page-header, 
-  body.has-sidebar.error404 #primary .page-header, 
-  body.page-two-column:not(.archive) #primary .entry-header, 
-  body.page-two-column.archive:not(.has-sidebar) #primary .page-header { 
-      width: 100%;
-      float: none;
-  }
- 
-}
