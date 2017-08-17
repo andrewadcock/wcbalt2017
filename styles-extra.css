@@ -92,4 +92,8 @@ td {
   .archive.page-one-column:not(.has-sidebar) .page-header {
       margin-bottom: 1.4em;
   }
+  
+  .wcpt-col-track {
+    width: 24%; 
+  }
 }
